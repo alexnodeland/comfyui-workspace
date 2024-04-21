@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4bdb66d0491278d1",
+        "id": "1ab4a1c9fad650ce",
         "type": "tabs",
         "children": [
           {
-            "id": "e963842910376e58",
+            "id": "5965b62c912a54e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
+                "file": "_templates/model.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
+                "file": "_templates/model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
+                "file": "_templates/model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md"
+                "file": "_templates/model.md"
               }
             }
           }
@@ -143,17 +143,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "627153de34ba485a",
+  "active": "5965b62c912a54e5",
   "lastOpenFiles": [
-    "models/IPAdapter.md",
-    "models/IPAdapter - FaceID.md",
-    "models/SD 1.5.md",
-    "_templates/model.md",
     "_templates/node.md",
+    "_templates/model.md",
     "_templates/workflow.md",
     "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
     "nodes/Manager.md",
     "nodes/IPAdapter plus.md",
+    "models/IPAdapter.md",
+    "models/SD 1.5.md",
+    "models/IPAdapter - FaceID.md",
     "workflows/subject_replacement-reference_style/subject_replacement-reference_style.md",
     "workflows/object_trace/object_trace.md",
     "RESOURCES.md",

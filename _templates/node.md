@@ -2,7 +2,8 @@
 tags:
   - node
 repository: 
-node_type:
+node_type: 
+associated_models:
 ---
 # Resources
 

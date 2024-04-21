@@ -4,7 +4,7 @@ tags:
 model: https://huggingface.co/h94/IP-Adapter-FaceID
 paper: https://ip-adapter.github.io/
 model_type: adapter
-node:
+associated_nodes:
   - "[[IPAdapter plus]]"
 ---
 # Resources

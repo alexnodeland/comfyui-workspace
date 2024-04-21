@@ -4,7 +4,7 @@ tags:
 model: 
 paper: 
 model_type: SD 1.5
-node:
+associated_nodes:
 ---
 # Resources
 

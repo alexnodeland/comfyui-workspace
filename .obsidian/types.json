@@ -5,6 +5,8 @@
     "tags": "tags",
     "nodes_used": "multitext",
     "models_used": "multitext",
-    "node": "multitext"
+    "node": "multitext",
+    "associated_node": "multitext",
+    "associated_models": "multitext"
   }
 }

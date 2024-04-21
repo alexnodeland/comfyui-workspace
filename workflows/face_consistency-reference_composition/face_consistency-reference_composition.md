@@ -16,4 +16,4 @@ models_used:
 
 # Workflow
 
-![Face Style Composition](workflow.png)
+![[workflow.png]]

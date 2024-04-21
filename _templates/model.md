@@ -4,7 +4,7 @@ tags:
 model: 
 paper: 
 model_type: 
-node:
+associated_nodes:
 ---
 # Resources
 
