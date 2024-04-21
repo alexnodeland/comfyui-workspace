@@ -51,138 +51,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 20,
-      "type": "IPAdapterUnifiedLoaderFaceID",
-      "pos": [
-        -332.70513812242825,
-        -1144.9749130663238
-      ],
-      "size": {
-        "0": 282.885009765625,
-        "1": 129.16000366210938
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 36
-        },
-        {
-          "name": "ipadapter",
-          "type": "IPADAPTER",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            35
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "ipadapter",
-          "type": "IPADAPTER",
-          "links": [
-            34,
-            38
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "IPAdapterUnifiedLoaderFaceID"
-      },
-      "widgets_values": [
-        "FACEID PLUS V2",
-        0.7000000000000001,
-        "CPU"
-      ]
-    },
-    {
-      "id": 31,
-      "type": "Note",
-      "pos": [
-        -45.70513812242809,
-        -1283.9749130663238
-      ],
-      "size": {
-        "0": 378.7621765136719,
-        "1": 105.777587890625
-      },
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "title": "Load IPAdapter model",
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "Recommended model: FULL FACE\n\nNote: Use only SD1.5 models the FULL FACE IPAdapter"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 22,
-      "type": "IPAdapterUnifiedLoader",
-      "pos": [
-        -45.70513812242809,
-        -1145.9749130663238
-      ],
-      "size": {
-        "0": 377.2386474609375,
-        "1": 130.40933227539062
-      },
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 43
-        },
-        {
-          "name": "ipadapter",
-          "type": "IPADAPTER",
-          "link": 38
-        }
-      ],
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            45
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "ipadapter",
-          "type": "IPADAPTER",
-          "links": [
-            46
-          ],
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "IPAdapterUnifiedLoader"
-      },
-      "widgets_values": [
-        "FULL FACE - SD1.5 only (portraits stronger)"
-      ]
-    },
-    {
       "id": 40,
       "type": "Note",
       "pos": [
@@ -194,7 +62,7 @@
         "1": 143.93336486816406
       },
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "title": "Configure FaceID",
       "properties": {
@@ -218,7 +86,7 @@
         "1": 181.5652313232422
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "title": "Configure IPAdapter",
       "properties": {
@@ -308,7 +176,7 @@
         "1": 65.33686065673828
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "title": "Input positive & negative prompts",
       "properties": {
@@ -371,7 +239,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "title": "Create Latent Image",
       "properties": {
@@ -395,7 +263,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -428,7 +296,7 @@
         "1": 64.57786560058594
       },
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "title": "FaceID Reference Image",
       "properties": {
@@ -452,7 +320,7 @@
         "1": 64.34237670898438
       },
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "title": "IPAdapter Reference Image",
       "properties": {
@@ -460,30 +328,6 @@
       },
       "widgets_values": [
         "Input the image to guide the style/composition"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 32,
-      "type": "Note",
-      "pos": [
-        348,
-        -759
-      ],
-      "size": {
-        "0": 655.672607421875,
-        "1": 120.04489135742188
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "title": "Workflow Information",
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "Based off the ipadapter_ideal_faceid_config workflow, by cubiq:\n\nhttps://github.com/cubiq/ComfyUI_IPAdapter_plus/blob/main/examples/ipadapter_ideal_faceid_config.json\n\nA video about these nodes the creator:\n\nhttps://www.reddit.com/r/StableDiffusion/comments/18pk4vs/latentvision_faceid_new_ipadapter_model/"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -500,7 +344,7 @@
         "1": 604.3919067382812
       },
       "flags": {},
-      "order": 11,
+      "order": 9,
       "mode": 0,
       "outputs": [
         {
@@ -539,7 +383,7 @@
         "1": 128.9656219482422
       },
       "flags": {},
-      "order": 12,
+      "order": 10,
       "mode": 0,
       "outputs": [
         {
@@ -587,7 +431,7 @@
         "1": 108.99534606933594
       },
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "title": "Load base image model",
       "properties": {
@@ -712,47 +556,6 @@
       },
       "widgets_values": [
         "closeup of a woman wearing blue armor with the sky in the background\n\nlate afternoon, early sunset, high quality, detailed, diffused light"
-      ]
-    },
-    {
-      "id": 23,
-      "type": "LoadImage",
-      "pos": [
-        -77,
-        -308
-      ],
-      "size": {
-        "0": 409.6898193359375,
-        "1": 602.5170288085938
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 14,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            47
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "style (1).png",
-        "image"
       ]
     },
     {
@@ -881,6 +684,203 @@
         0,
         1,
         "V only"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "IPAdapterUnifiedLoaderFaceID",
+      "pos": [
+        -333,
+        -1145
+      ],
+      "size": {
+        "0": 282.885009765625,
+        "1": 129.16000366210938
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 36
+        },
+        {
+          "name": "ipadapter",
+          "type": "IPADAPTER",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            35
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "ipadapter",
+          "type": "IPADAPTER",
+          "links": [
+            34,
+            38
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IPAdapterUnifiedLoaderFaceID"
+      },
+      "widgets_values": [
+        "FACEID PLUS V2",
+        0.7000000000000001,
+        "CPU"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "Note",
+      "pos": [
+        -46,
+        -1284
+      ],
+      "size": {
+        "0": 378.7621765136719,
+        "1": 105.777587890625
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "title": "Load IPAdapter model",
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Recommended model: FULL FACE\n\nNote: Use only SD1.5 models the FULL FACE IPAdapter"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 22,
+      "type": "IPAdapterUnifiedLoader",
+      "pos": [
+        -26,
+        -1145
+      ],
+      "size": {
+        "0": 377.2386474609375,
+        "1": 130.40933227539062
+      },
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 43
+        },
+        {
+          "name": "ipadapter",
+          "type": "IPADAPTER",
+          "link": 38
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "ipadapter",
+          "type": "IPADAPTER",
+          "links": [
+            46
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IPAdapterUnifiedLoader"
+      },
+      "widgets_values": [
+        "FULL FACE - SD1.5 only (portraits stronger)"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "Note",
+      "pos": [
+        -1595,
+        -1525
+      ],
+      "size": {
+        "0": 655.672607421875,
+        "1": 120.04489135742188
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "title": "Workflow Information",
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Based off the ipadapter_ideal_faceid_config workflow, by cubiq:\n\nhttps://github.com/cubiq/ComfyUI_IPAdapter_plus/blob/main/examples/ipadapter_ideal_faceid_config.json\n\nA video about these nodes the creator:\n\nhttps://www.reddit.com/r/StableDiffusion/comments/18pk4vs/latentvision_faceid_new_ipadapter_model/"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 23,
+      "type": "LoadImage",
+      "pos": [
+        -77,
+        -308
+      ],
+      "size": {
+        "0": 409.6898193359375,
+        "1": 602.5170288085938
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 14,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            47
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "composition.png",
+        "image"
       ]
     }
   ],
@@ -1040,7 +1040,8 @@
         874
       ],
       "color": "#3f789e",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Inputs",
@@ -1051,7 +1052,8 @@
         774
       ],
       "color": "#8A8",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Output",
@@ -1062,7 +1064,8 @@
         930
       ],
       "color": "#8A8",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     }
   ],
   "config": {},
