@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "nodes_used": "multitext",
+    "models_used": "multitext",
+    "node": "multitext"
+  }
+}

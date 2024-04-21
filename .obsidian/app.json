@@ -2,5 +2,9 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "livePreview": false
+  "livePreview": false,
+  "userIgnoreFilters": [
+    "_templates/"
+  ],
+  "showUnsupportedFiles": true
 }

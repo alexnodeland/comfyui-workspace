@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nodes/Manager.md",
+                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
                 "mode": "preview",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#workflow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 385.5
   },
   "right": {
     "id": "79699e2a3466d6db",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nodes/Manager.md",
+                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nodes/Manager.md",
+                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nodes/Manager.md"
+                "file": "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md"
               }
             }
           }
@@ -133,30 +133,32 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.5
+    "width": 653.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "e963842910376e58",
+  "active": "627153de34ba485a",
   "lastOpenFiles": [
-    "nodes/Manager.md",
-    "nodes/IPAdapter plus.md",
-    "RESOURCES.md",
+    "models/IPAdapter.md",
+    "models/IPAdapter - FaceID.md",
+    "models/SD 1.5.md",
     "_templates/model.md",
     "_templates/node.md",
-    "_templates",
+    "_templates/workflow.md",
     "workflows/face_consistency-reference_composition/face_consistency-reference_composition.md",
-    "workflows/face_consistency-reference_composition/face_consistency-reference_composition.png",
-    "models/auxilliary/IPAdapter - FaceID.md",
-    "models/auxilliary/IPAdapter.md",
-    "models/sd1_5/_SD 1.5.md",
+    "nodes/Manager.md",
+    "nodes/IPAdapter plus.md",
+    "workflows/subject_replacement-reference_style/subject_replacement-reference_style.md",
+    "workflows/object_trace/object_trace.md",
+    "RESOURCES.md",
+    "_templates",
+    "workflows/face_consistency-reference_composition/workflow.png",
     "models/_Model.md",
     "models/sdxl-lightning",
     "models/sdxl",
@@ -172,7 +174,7 @@
     "workflows/object_trace/sample_images/castle.png",
     "workflows/object_trace/sample_images/cartoon_cat.jpg",
     "workflows/object_trace/sample_images",
-    "workflows/object_trace/object_trace.json",
+    "workflows/object_trace/workflow.json",
     "workflows/face_consistency-reference_composition/sample_images/style.png",
     "workflows/face_consistency-reference_composition/sample_images/face.jpg",
     "workflows/reference_composition/sample_images/style.png",
