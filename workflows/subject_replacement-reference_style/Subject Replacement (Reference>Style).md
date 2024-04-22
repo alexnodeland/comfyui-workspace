@@ -6,8 +6,17 @@ nodes_used:
   - "[[IPAdapter plus]]"
 models_used:
   - "[[IPAdapter]]"
-  - "[[SDXL]]"
+  - "[[DepthAnything]]"
+  - "[[RemBG]]"
+  - "[[ControlNet Depth]]"
 ---
+# Workflow
+
+> [!INFO] Information
+> 
+
+![[]]
+
 # Resources
 
 - 
@@ -15,7 +24,3 @@ models_used:
 # Notes
 
 - 
-
-# Workflow
-
-![[workflows/face_consistency-reference_style/workflow.png]]
