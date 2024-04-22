@@ -1,7 +1,7 @@
 ---
 tags:
   - workflow
-repository: 
+repository: "https://drelabre.gumroad.com/l/tracetransform"
 nodes_used: 
 models_used:
   - "[[ControlNet Canny Edge]]"
@@ -15,7 +15,7 @@ models_used:
 
 # Resources
 
--
+- [Trace Transform](https://www.youtube.com/watch?v=4IFOqPVa7Z0)
 
 # Notes
 
