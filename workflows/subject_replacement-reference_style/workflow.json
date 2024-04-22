@@ -6,8 +6,8 @@
       "id": 62,
       "type": "LoadImage",
       "pos": [
-        -1001.3563056912573,
-        0.022606175555803576
+        -90.47665653240614,
+        -1277.178008843976
       ],
       "size": {
         "0": 493.5907897949219,
@@ -45,8 +45,8 @@
       "id": 74,
       "type": "LoadImage",
       "pos": [
-        -496.35630569125584,
-        0.022606175555803576
+        414.52334346759477,
+        -1277.178008843976
       ],
       "size": {
         "0": 445.7233581542969,
@@ -83,8 +83,8 @@
       "id": 6,
       "type": "CLIPTextEncode",
       "pos": [
-        -1003.0514466110839,
-        -316.3874555095361
+        -92.17179745223274,
+        -1593.5880705290685
       ],
       "size": {
         "0": 956.3057861328125,
@@ -122,8 +122,8 @@
       "id": 7,
       "type": "CLIPTextEncode",
       "pos": [
-        -1001.0514466110845,
-        -207.38745550953334
+        -90.17179745223342,
+        -1484.588070529065
       ],
       "size": {
         "0": 953.5999755859375,
@@ -161,8 +161,8 @@
       "id": 3,
       "type": "KSampler",
       "pos": [
-        1895.3762581111453,
-        -25.945505227636772
+        878.6493874384016,
+        -1304.3921981269443
       ],
       "size": {
         "0": 315,
@@ -218,36 +218,11 @@
       ]
     },
     {
-      "id": 15,
-      "type": "PreviewImage",
-      "pos": [
-        2224.376258111138,
-        -410.94550522763643
-      ],
-      "size": {
-        "0": 878.5728149414062,
-        "1": 867.2614135742188
-      },
-      "flags": {},
-      "order": 38,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 18
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
       "id": 75,
       "type": "DifferentialDiffusion",
       "pos": [
-        1896.3762581111453,
-        -409.94550522763643
+        879.6493874384016,
+        -1688.3921981269434
       ],
       "size": {
         "0": 315.0098876953125,
@@ -278,46 +253,6 @@
       ],
       "properties": {
         "Node name for S&R": "DifferentialDiffusion"
-      }
-    },
-    {
-      "id": 8,
-      "type": "VAEDecode",
-      "pos": [
-        1900.3762581111455,
-        410.05449477236334
-      ],
-      "size": {
-        "0": 312.4669494628906,
-        "1": 46
-      },
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 7
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 8
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            18
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VAEDecode"
       }
     },
     {
@@ -382,8 +317,8 @@
       "id": 78,
       "type": "Note",
       "pos": [
-        -999.7446521143089,
-        -95.40266027555839
+        -88.8650029554578,
+        -1372.60327529509
       ],
       "size": {
         "0": 493.13848876953125,
@@ -406,8 +341,8 @@
       "id": 79,
       "type": "Note",
       "pos": [
-        -497.7446521143075,
-        -94.40266027555839
+        413.13499704454324,
+        -1371.60327529509
       ],
       "size": {
         "0": 448.0808410644531,
@@ -1151,8 +1086,8 @@
       "id": 87,
       "type": "Note",
       "pos": [
-        1894.7896742206701,
-        -350.9928388702291
+        878.0628035479266,
+        -1629.4395317695364
       ],
       "size": {
         "0": 317.97735595703125,
@@ -1324,42 +1259,18 @@
       }
     },
     {
-      "id": 94,
-      "type": "Note",
-      "pos": [
-        621,
-        -867
-      ],
-      "size": [
-        621.1491822237952,
-        98.72845046238285
-      ],
-      "flags": {},
-      "order": 20,
-      "mode": 0,
-      "title": "Workflow Information",
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "Based on the ice_tiger workflow, by latent vision:\n\nhttps://www.youtube.com/watch?v=gmwZGC8UVHE\n\nSee the above for tips and tricks regarding this workflow, and these nodes (IPAdapter) in general."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 77,
       "type": "Note",
       "pos": [
-        -1006.3954447322104,
-        -407.7756383826721
+        -95.5157955733593,
+        -1684.976253402204
       ],
       "size": {
         "0": 961.5042724609375,
         "1": 58
       },
       "flags": {},
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "title": "Positive & Negative Prompts",
       "properties": {
@@ -1367,6 +1278,95 @@
       },
       "widgets_values": [
         "For specific prompting instructions, refer to the specific model being used."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 15,
+      "type": "PreviewImage",
+      "pos": [
+        1207.6493874383918,
+        -1689.3921981269434
+      ],
+      "size": [
+        995.9158413146652,
+        972.1327767447822
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 18
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        885,
+        -767
+      ],
+      "size": {
+        "0": 312.4669494628906,
+        "1": 46
+      },
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            18
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 94,
+      "type": "Note",
+      "pos": [
+        -844,
+        -2148
+      ],
+      "size": {
+        "0": 530.0276489257812,
+        "1": 164.83834838867188
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "title": "Workflow Information",
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Based off the ice tiger workflow, by cubiq:\n\nhttps://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblZlaGM2VldtVlplUmlaRzZaRXhURDNQcmRZZ3xBQ3Jtc0ttV294ZE0xZzd2a3hOZUhHZkh3RHF0N3JCNGE1X2pmVXhCazNHSTZZeC1LVzUtZnk4LUdTTWJISFBXSTNFVHdpc2JFM2ZPbDZFRDVtVG02MGYxRjBQVndHVFo4MXZlT3R0NHJXYzk4OEFlcUdIazBkdw&q=https%3A%2F%2Ff.latent.vision%2Fdownload%2Fstyle_transfer.zip&v=gmwZGC8UVHE\n\nA video about these nodes the creator:\n\nhttps://www.youtube.com/watch?v=gmwZGC8UVHE"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -1632,29 +1632,32 @@
         775
       ],
       "color": "#3f789e",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Inputs",
       "bounding": [
-        -1007,
-        -479,
+        -96,
+        -1756,
         967,
-        1033
+        1045
       ],
       "color": "#8A8",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Image Generation",
       "bounding": [
-        1893,
-        -477,
-        1221,
-        940
+        876,
+        -1755,
+        1336,
+        1044
       ],
       "color": "#8A8",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Preprocessing",
@@ -1665,7 +1668,8 @@
         699
       ],
       "color": "#3f789e",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     }
   ],
   "config": {},

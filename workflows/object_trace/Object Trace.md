@@ -9,14 +9,14 @@ models_used:
 # Workflow
 
 > [!INFO] Information
-> 
+>
 
-![[]]
+![[workflows/object_trace/workflow.png]]
 
 # Resources
 
-- 
+-
 
 # Notes
 
-- 
+-
