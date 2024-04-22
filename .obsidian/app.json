@@ -6,5 +6,6 @@
   "userIgnoreFilters": [
     "_templates/"
   ],
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "readableLineLength": false
 }
